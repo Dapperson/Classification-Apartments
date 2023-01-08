@@ -47,12 +47,15 @@ Paris Housing memiliki 17 variabel sebagai berikut:
 ### Exploratory Data Analysis
 
 1. analisis kolom kategori
+
 ![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Variabel%20Kategorikal.png)
 
 2. analisis kolom numerik
+
 ![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Variabel%20Numerik.png)
 
 3. analisis kolom kategorikal & biner
+
 ![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Presentase%20Category.png)
 
 
@@ -132,6 +135,7 @@ Karena data pada kolom target sebelumnya tidak seimbang (imbalance) jumlah antar
 - XGBClassifier
 
 Confusion Matrix
+
 ![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Confusion%20Matrix.png)
 
 Kelima model tersebut dapat membaca model dengan baik dengan nilai
