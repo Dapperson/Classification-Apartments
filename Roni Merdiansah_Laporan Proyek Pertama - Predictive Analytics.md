@@ -46,14 +46,14 @@ Paris Housing memiliki 17 variabel sebagai berikut:
 
 ### Exploratory Data Analysis
 
-1. analisis kolom `category`
-![](https://drive.google.com/file/d/1_s69dudkHz_tXoMYFu_714MTRm95mrbp/view?usp=share_link)
+1. analisis kolom kategori
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Variabel%20Kategorikal.png)
 
 2. analisis kolom numerik
-![](https://drive.google.com/file/d/1iPwZuG9gmvSo-_EslGCrkaSfjS98e84-/view?usp=share_link)
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Variabel%20Numerik.png)
 
 3. analisis kolom kategorikal & biner
-![](https://drive.google.com/file/d/10S5pAiO8aPmQ6AGENTH0JXc8aaQJJtgh/view?usp=share_link)
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Presentase%20Category.png)
 
 
 Dari beberapa visualisasi yang dilakukan didapatkan beberapa insight sebagai berikut:
@@ -132,7 +132,7 @@ Karena data pada kolom target sebelumnya tidak seimbang (imbalance) jumlah antar
 - XGBClassifier
 
 Confusion Matrix
-![](https://drive.google.com/file/d/1Zp7eZDeroqcKIJqMuzchGqd2y-TUfzbe/view?usp=share_link)
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Confusion%20Matrix.png)
 
 Kelima model tersebut dapat membaca model dengan baik dengan nilai
 True Positive = `4367`
@@ -142,7 +142,7 @@ False Negative = `0`
 
 Karena salah satu tujuan proyek ini adalah mencari tahu fitur penting yang sangat berpengaruh terhadap klasifikasi, maka diantara kelima model tersebut yang paling banyak mendeteksi fitur penting adalah *RandomForestClassifier*
 
-![](https://drive.google.com/file/d/1P_PS9qYxDpRSuIC_UsGPJ94eMI6dmktF/view?usp=share_link)
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Feature%20Importance%20RFC.png)
 
 
 ## Evaluasi
@@ -158,7 +158,7 @@ Best Hyperparameters:
 
 dengan matriks kebingungan dari data test sebagai berikut
 
-![](https://drive.google.com/file/d/1Z1JqrBbe9j3Vr_sgU9YY-f-ARt3VlZ_g/view?usp=share_link)
+![](https://raw.githubusercontent.com/Dapperson/Classification-Apartments/main/Picture/Confusion%20Matrix%20HT.png)
 
 True Positive = `1744`
 True Negative = `256`
